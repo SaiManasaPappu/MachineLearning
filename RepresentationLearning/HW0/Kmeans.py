@@ -4,7 +4,7 @@ import numpy as np
 import numpy.random
 import matplotlib.pyplot as plt
 from numpy import linalg as LA
-np.random.seed(0)
+#np.random.seed(0)
 
 def assign(d,n,x,K,S):
     temp = np.zeros((n,K))
