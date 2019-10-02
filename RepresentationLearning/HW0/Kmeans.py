@@ -41,7 +41,7 @@ def disp(d,n,x,k,S,cluster):
 def k_means(d,n,x,k,epsilon):
 	
 	# intialisation of centroids
-	# Taking random Samples from input itself
+	# Taking first centroid as centroid of first n/k samples
 	# S is the set of all centroids, i.e, d x k  matrix
 	S = np.zeros((d,k))
 	for i in range(k):
